@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #e98d11;
+}
+.showcase{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("includes/images/thought-catalog-jWQj5Wjepuk-unsplash.jpg") no-repeat center center/cover;
+}
+
+.container{
+    height: 30vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    gap: 20px;
+}
+.social-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(26, 24, 24);
+}
+.social-item i{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.social-item h5{
+    font-size: 22px;
+}
+.social-item p{
+    font-size: 12px;
+}
